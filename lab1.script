@@ -1,0 +1,100 @@
+Script started on 2017年03月20日 (週一) 22時15分22秒
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m git clone https://github.com/
+Cloning into 'github.com'...
+fatal: repository 'https://github.com/' not found
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m <your
+bash: your: No such file or directory
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m github
+github: command not found
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m account>
+bash: syntax error near unexpected token `newline'
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m /lab1.git[K[K[K[K[K[K[K[K[Kgit clone https://github.com/
+Cloning into 'github.com'...
+fatal: repository 'https://github.com/' not found
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m <your
+bash: your: No such file or directory
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m github
+github: command not found
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m account>
+bash: syntax error near unexpected token `newline'
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m /lab1.git[K[K[K[K[K[K[K[K[Kgit clone https://github.com/E24056491/lab1.git
+fatal: destination path 'lab1' already exists and is not an empty directory.
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m git clone https://github.com/E24056491/lab1.git
+Cloning into 'lab1'...
+remote: Counting objects: 3, done.[K
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  33% (1/3)   Unpacking objects:  66% (2/3)   Unpacking objects: 100% (3/3)   Unpacking objects: 100% (3/3), done.
+Checking connectivity... done.
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m cat lab1.script
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m git config -l
+user.name=E24056491
+user.email=treelikes3@gmail.com
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m mv lab1.script lab1
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.ICEauthority[m
+	[31m.Xauthority[m
+	[31m.bash_history[m
+	[31m.bash_logout[m
+	[31m.cache/[m
+	[31m.cinnamon/[m
+	[31m.config/[m
+	[31m.dbus/[m
+	[31m.dmrc[m
+	[31m.gconf/[m
+	[31m.gitconfig[m
+	[31m.gksu.lock[m
+	[31m.gnome2/[m
+	[31m.gstreamer-0.10/[m
+	[31m.local/[m
+	[31m.macromedia/[m
+	[31m.mozilla/[m
+	[31m.profile[m
+	[31m.vboxclient-clipboard.pid[m
+	[31m.vboxclient-display.pid[m
+	[31m.vboxclient-draganddrop.pid[m
+	[31m.vboxclient-seamless.pid[m
+	[31m.viminfo[m
+	[31m.xsession-errors[m
+	[31mDesktop/[m
+	[31mDownloads/[m
+	[31mQt5.7.0/[m
+	[31ma.out[m
+	[31mbuild-example-Desktop_Qt_5_7_0_GCC_64bit-Debug/[m
+	[31mexample/[m
+	[31mlab1/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m git add lab1.script
+fatal: pathspec 'lab1.script' did not match any files
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m git ocmmit [K[K[K[K[K[K[K[K[Kt commit lab1.script
+error: pathspec 'lab1.script' did not match any file(s) known to git.
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m gi t[K[Kt push lab1.script
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+In Git 2.0, Git will default to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.d
